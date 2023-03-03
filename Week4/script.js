@@ -16,5 +16,12 @@ function myLoadFunction() {
     var element = document.getElementById('paragraph');
     element.firstChild.nodeValue = 'New paragraph text';
    }
+
+   function myLoadFunction2() {
+    var element = document.getElementById('pageheading');
+    element.firstChild.nodeValue = 'New Heading...';
+    var element = document.getElementById('paragraph');
+    element.firstChild.nodeValue = 'New paragraph text...';
+   }
    document.addEventListener('DOMContentLoaded', myLoadFunction);
-   document.addEventListener('click', myLoadFunction);
+   document.addEventListener('click', myLoadFunction2);
