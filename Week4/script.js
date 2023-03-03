@@ -8,3 +8,4 @@ function print5()
 }
 print5();
 print5();
+var element = document.getElementById('pageheading');
